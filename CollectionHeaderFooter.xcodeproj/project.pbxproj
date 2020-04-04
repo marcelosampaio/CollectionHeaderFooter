@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				7F98A7182438EFBC00075703 /* Suplementary View */,
-				7F90A9F224368766001F849F /* Collection Cell and Suplementary View */,
+				7F90A9F224368766001F849F /* CollectionView Cell */,
 				7F90A9F524368799001F849F /* Controller */,
 				7F90A9F424368785001F849F /* User Interface */,
 				7F90A9F324368775001F849F /* Root */,
@@ -73,12 +73,12 @@
 			path = CollectionHeaderFooter;
 			sourceTree = "<group>";
 		};
-		7F90A9F224368766001F849F /* Collection Cell and Suplementary View */ = {
+		7F90A9F224368766001F849F /* CollectionView Cell */ = {
 			isa = PBXGroup;
 			children = (
 				7F90A9F624368807001F849F /* ImageCell.swift */,
 			);
-			path = "Collection Cell and Suplementary View";
+			path = "CollectionView Cell";
 			sourceTree = "<group>";
 		};
 		7F90A9F324368775001F849F /* Root */ = {
