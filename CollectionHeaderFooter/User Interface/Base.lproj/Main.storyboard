@@ -54,7 +54,7 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CollectionHeader" id="ITY-KC-Xkb" userLabel="CollectionHeader" customClass="CollectionHeaderCell" customModule="CollectionHeaderFooter" customModuleProvider="target">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CollectionHeader" id="ITY-KC-Xkb" userLabel="CollectionHeader" customClass="CollectionHeaderView" customModule="CollectionHeaderFooter" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -76,7 +76,7 @@
                                         <outlet property="headerLabel" destination="ARI-5T-jR3" id="cs6-r5-shO"/>
                                     </connections>
                                 </collectionReusableView>
-                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CollectionFooter" id="ZJa-hd-Zpo" userLabel="CollectionFooter" customClass="CollectionFooterCell" customModule="CollectionHeaderFooter" customModuleProvider="target">
+                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CollectionFooter" id="ZJa-hd-Zpo" userLabel="CollectionFooter" customClass="CollectionFooterView" customModule="CollectionHeaderFooter" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="100" width="414" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>

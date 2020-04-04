@@ -1,5 +1,5 @@
 //
-//  CollectionHeaderCell.swift
+//  CollectionFooterView.swift
 //  CollectionHeaderFooter
 //
 //  Created by Marcelo Sampaio on 04/04/20.
@@ -8,9 +8,7 @@
 
 import UIKit
 
-class CollectionHeaderCell: UICollectionReusableView {
-    
-    // MARK: - Outlets
-    @IBOutlet weak var headerLabel: UILabel!
+class CollectionFooterView: UICollectionReusableView {
+    @IBOutlet weak var footerLabel: UILabel!
     
 }

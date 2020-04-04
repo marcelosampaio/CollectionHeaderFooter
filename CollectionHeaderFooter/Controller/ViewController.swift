@@ -51,14 +51,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 
         if kind == UICollectionView.elementKindSectionHeader {
             
-            let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "CollectionHeader", for: indexPath) as! CollectionHeaderCell
+            let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "CollectionHeader", for: indexPath) as! CollectionHeaderView
             headerView.backgroundColor = UIColor.purple
             headerView.headerLabel.text = "This is the header"
             reusableview = headerView
         }
         
         if kind == UICollectionView.elementKindSectionFooter {
-            let footerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "CollectionFooter", for: indexPath) as! CollectionFooterCell
+            let footerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "CollectionFooter", for: indexPath) as! CollectionFooterView
             footerView.backgroundColor = UIColor.yellow
             footerView.footerLabel.text = "This is the footer"
             reusableview = footerView
